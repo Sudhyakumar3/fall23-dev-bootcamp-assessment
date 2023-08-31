@@ -1,3 +1,85 @@
-/* Your Styles Here */
-body{
-}
+.profilechild {
+    position: absolute;
+    top: 167px;
+    left: 181px;
+    border-radius: 137px;
+    background-color: #d9d9d9;
+    width: 1078px;
+    height: 455px;
+  }
+  .profileimage {
+    position: absolute;
+    top: 278px;
+    left: 236px;
+    border-radius: 50%;
+    width: 178px;
+    height: 178px;
+    object-fit: cover;
+  }
+  .name {
+    position: absolute;
+    top: 284px;
+    left: 456px;
+    font-size: 64px;
+    font-family: var(--font-kodchasan);
+  }
+  .major,
+  .passion {
+    position: absolute;
+    top: 394px;
+    left: 720px;
+    display: inline-block;
+    width: 480px;
+    height: 53px;
+  }
+  .passion{
+    top: 476px;
+    left: 456px;
+    width: 744px;
+    height: 65px;
+  }
+  .instagram,
+  .linkedin {
+    position: absolute;
+    top: 466px;
+    left: 236px;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+  }
+  .linkedin {
+    top: 472px;
+    left: 361px;
+    width: 40px;
+    height: 40px;
+  }
+  .profile {
+    position: relative;
+    background-color: #96c291;
+    width: 100%;
+    height: 680px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-13xl);
+    color: var(--color-black);
+    font-family: var(--font-istok-web);
+  }
+
+  body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    /* fonts */
+    --font-istok-web: "Istok Web";
+    --font-kodchasan: Kodchasan;
+  
+    /* font sizes */
+    --font-size-13xl: 32px;
+  
+    /* Colors */
+    --color-black: #000;
+  }
+  
+  
